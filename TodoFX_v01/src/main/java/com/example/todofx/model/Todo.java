@@ -22,9 +22,16 @@ public class Todo {
         this.state = state;
     }
 
+    public Todo(int id, String task) {
+        this.id = id;
+        this.task = task;
+    }
+
     public Todo(String task) {
         this.task = task;
     }
+
+
 
     public int getId() {
         return id;
